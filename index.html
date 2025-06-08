@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Sidebar Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">InternHub</div>
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="overlay" id="overlay"></div>
+
+    <nav class="sidebar" id="sidebar" role="navigation" aria-label="Main navigation">
+        <div class="sidebar-header">
+            <div class="sidebar-title">Navigation</div>
+            <div class="sidebar-subtitle">Explore all options</div>
+        </div>
+        <div class="sidebar-nav">
+            <a href="#internship" class="nav-item" tabindex="0">
+                <span class="nav-icon">🎯</span>
+                Internship Application
+            </a>
+            <a href="#offer-letter" class="nav-item" tabindex="0">
+                <span class="nav-icon">📄</span>
+                Offer Letter Generation
+            </a>
+            <a href="#certificate" class="nav-item" tabindex="0">
+                <span class="nav-icon">🏆</span>
+                Certificate Verification
+            </a>
+            <a href="#team-join" class="nav-item" tabindex="0">
+                <span class="nav-icon">👥</span>
+                Team Join Form
+            </a>
+            <a href="#contact" class="nav-item" tabindex="0">
+                <span class="nav-icon">📞</span>
+                Contact Information
+            </a>
+        </div>
+    </nav>
+
+    <a href="#internship" class="sticky-banner" id="stickyBanner" aria-label="Apply for internship">
+        <span>🚀</span>
+        Apply for Internship
+    </a>
+
+    <main class="main-content">
+        <section class="content-section" id="internship">
+            <h2 class="section-title">Internship Application</h2>
+            <div class="section-content">
+                <p>Start your journey with our comprehensive internship program. We offer opportunities across various domains including web development, mobile app development, data science, and UI/UX design.</p>
+                <p>Our internship program is designed to provide hands-on experience with real-world projects, mentorship from industry experts, and the opportunity to work with cutting-edge technologies.</p>
+            </div>
+        </section>
+
+        <section class="content-section" id="offer-letter">
+            <h2 class="section-title">Offer Letter Generation</h2>
+            <div class="section-content">
+                <p>Once you've successfully completed the selection process, we'll generate your personalized offer letter. This document will contain all the details about your internship including duration, stipend, project details, and terms of engagement.</p>
+                <p>The offer letter generation process is automated and secure, ensuring that all your personal information is handled with the utmost care and privacy.</p>
+            </div>
+        </section>
+
+        <section class="content-section" id="certificate">
+            <h2 class="section-title">Certificate Verification</h2>
+            <div class="section-content">
+                <p>Verify the authenticity of certificates issued by our organization. Our blockchain-based verification system ensures that all certificates are tamper-proof and can be verified instantly.</p>
+                <p>Simply enter the certificate ID or upload the certificate file to verify its authenticity. This service is available 24/7 and provides instant results.</p>
+            </div>
+        </section>
+
+        <section class="content-section" id="team-join">
+            <h2 class="section-title">Team Join Form</h2>
+            <div class="section-content">
+                <p>Interested in joining our core team? Fill out our team join form to express your interest in permanent positions. We're always looking for talented individuals who are passionate about technology and innovation.</p>
+                <p>Our team culture emphasizes collaboration, continuous learning, and innovation. We offer competitive packages, flexible working hours, and opportunities for professional growth.</p>
+            </div>
+        </section>
+
+        <section class="content-section" id="contact">
+            <h2 class="section-title">Contact Information</h2>
+            <div class="section-content">
+                <p><strong>Email:</strong> contact@internhub.com</p>
+                <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+                <p><strong>Address:</strong> 123 Innovation Street, Tech City, TC 12345</p>
+                <p><strong>Office Hours:</strong> Monday - Friday, 9:00 AM - 6:00 PM</p>
+                <p>Feel free to reach out to us for any queries, concerns, or feedback. Our team is always ready to assist you and provide the information you need.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2 class="section-title">Why Choose Us?</h2>
+            <div class="section-content">
+                <p>Our organization stands out in the industry for several reasons. We believe in nurturing talent and providing opportunities for growth and learning.</p>
+                <p>With over 500 successful interns and a 95% satisfaction rate, we've established ourselves as a premier destination for aspiring professionals.</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2 class="section-title">Success Stories</h2>
+            <div class="section-content">
+                <p>Read about the amazing journeys of our former interns who have gone on to achieve great success in their careers. From startups to Fortune 500 companies, our alumni are making their mark everywhere.</p>
+                <p>These success stories serve as inspiration for current and future interns, showing what's possible with dedication, hard work, and the right guidance.</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
